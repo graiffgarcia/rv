@@ -2,9 +2,18 @@
 
 <head>
     <title>Vicardo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        @font-face {
+            font-family: 'didot_lt_stdheadline';
+            src: url('didotltstd-headline-webfont.woff2') format('woff2'), url('didotltstd-headline-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
         body {
-            font-family: sans-serif;
+            /* font-family: sans-serif; */
+            font-family: 'didot_lt_stdheadline';
             font-size: 1.1em;
             text-align: center;
             line-height: 1.25;
@@ -12,6 +21,13 @@
             /* background-color: #293462; */
             /* color: #F7D716; */
             color: #FDDC5C;
+        }
+        
+        h1 {
+            font-family: 'didot_lt_stdheadline';
+            font-size: 2.2em;
+            margin-top: 0.75em;
+            margin-bottom: -0.1em;
         }
         
         p {
@@ -30,7 +46,7 @@
 </head>
 
 <body>
-    <p>Hello, world!</p>
+    <h1>Hello, world!</h1>
 
     <p>Visit our <a href='marlow.jpg'>registry!</a></p>
 </body>
